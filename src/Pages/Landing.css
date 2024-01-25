@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Oswald&display=swap");
+
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    font-family: 'Crimson Text', serif; 
+}
+
+.comic-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: #75a1ff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #000;
+  box-shadow: 3px 3px 0px #3530d6;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.comic-btn:hover {
+  background-color: #fdcb6e;
+  box-shadow: 2px 2px 0px #e17055;
+  transform: translate(1px, 1px);
+}
+
+.comic-btn:active {
+  background-color: #e17055;
+  box-shadow: 0px 0px 0px #d63031;
+  transform: translate(3px, 3px);
+}
